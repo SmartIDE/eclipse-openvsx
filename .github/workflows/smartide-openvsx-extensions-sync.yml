@@ -8,7 +8,7 @@ on:
       - publish-extensions/sync-extensions.js
       - .github/workflows/smartide-openvsx-extensions-sync.yml
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 18 * * *"
     
 jobs:
 
